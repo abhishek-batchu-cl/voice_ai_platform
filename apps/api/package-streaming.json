@@ -1,0 +1,14 @@
+{
+  "name": "streaming-dependencies",
+  "description": "Additional dependencies for ultra-low latency streaming",
+  "dependencies": {
+    "@deepgram/sdk": "^3.4.0",
+    "alawmulaw": "^3.0.0",
+    "@types/ws": "^8.5.10"
+  },
+  "instructions": [
+    "Run: npm install @deepgram/sdk alawmulaw",
+    "Get Deepgram API key from: https://console.deepgram.com",
+    "Add to .env: DEEPGRAM_API_KEY=your_key_here"
+  ]
+}
